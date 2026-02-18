@@ -35,7 +35,11 @@ dataset_obb/
 
 # Training outputs
 runs/
-results/
+results/*
+!results/README.md
+!results/final_metrics.txt
+!results/training_plots/.gitkeep
+!results/predictions/.gitkeep
 
 # Logs
 *.log
